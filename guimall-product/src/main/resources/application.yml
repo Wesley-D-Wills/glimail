@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root # 连接数据源的  用户名
+    password: root # 密码
+    url: jdbc:mysql://192.168.56.10:3306/gulimall_pms # 连向那个数据库
+    driver-class-name: com.mysql.jdbc.Driver # 驱动
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto # 主键自增
+
+server:
+  port: 10000
