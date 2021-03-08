@@ -77,6 +77,7 @@
 > 
 > docker ps -a 							# 查看所有的容器【非镜像】
 > docker update redis --restart=always 	# 配置容器随着docker启动 而 自启动
+> docker logs 【容器名称】# 查看错误
 > ```
 >
 > ```shell
